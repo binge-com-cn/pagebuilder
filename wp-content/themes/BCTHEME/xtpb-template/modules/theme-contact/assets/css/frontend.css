@@ -1,0 +1,21 @@
+.module-theme-contact .md-contact ul{display:flex;margin:-10px;justify-content:center;flex-wrap:wrap}
+.module-theme-contact .md-contact ul li{position:relative;margin:10px;padding:50px 15px;width:calc(33.33333% - 20px);background:#fff;text-align:center}
+.module-theme-contact .md-contact.style_2 ul li{width:calc(50% - 20px)}
+.module-theme-contact .md-contact.style_4 ul li{width:calc(25% - 20px)}
+.module-theme-contact .md-contact ul li *{position:relative;z-index:2}
+.module-theme-contact .md-contact ul li h3{position:relative;overflow:hidden;margin:0 0 30px;padding-bottom:15px;color:#000;text-overflow:ellipsis;white-space:nowrap;font-size:20px;line-height:20px;transition:all .5s}
+.module-theme-contact .md-contact ul li h3:after{position:absolute;bottom:0;left:50%;margin-left:-15px;width:30px;height:2px;background:#333;content:" ";transition:all .5s}
+.module-theme-contact .md-contact ul li p{margin:0;font-size:16px;transition:all .5s}
+.module-theme-contact .md-contact ul li:after{position:absolute;inset:0;z-index:1;content:" ";opacity:0;transition:all .5s;transform:scaleX(0) scaleY(0)}
+.module-theme-contact .md-contact ul li:hover:after{background:var(--main-color);opacity:1;transform:scaleX(1) scaleY(1)}
+.module-theme-contact .md-contact ul li:hover h3,.module-theme-contact .md-contact ul li:hover p{color:#fff}
+.module-theme-contact .md-contact ul li:hover h3:after{background:#fff}
+.module-theme-contact .mbbg-img{position:relative;z-index:1;background-position:center;background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.module-theme-contact .mbbg-img .section-title,.module-theme-contact .mbbg-img .section-title p{color:#fff}
+.module-theme-contact .mbbg-img:after{position:absolute;inset:0;z-index:-1;background-color:rgba(9,20,38,.7);content:""}
+.module-theme-contact .md-contact ul li i{display:inline-block;margin-bottom:20px;color:#000;font-size:28px;transition:all .5s}
+.module-theme-contact .md-contact ul li:hover i{color:#fff}
+@media (max-width:767px){
+	.module-theme-contact .md-contact ul{margin:0 -7px -7px}
+	.module-theme-contact .md-contact ul li{margin:7px;padding:20px 10px;width:calc(100% - 14px)!important}
+}

@@ -1,0 +1,5 @@
+.module-theme-shortcode:after{display:table;clear:both;content:""}
+.module-theme-shortcode .shortcode-preview{display:flex;padding:20px;border:1px dashed #bbb;border-radius:4px;background:#f7f7f7;color:#444;align-items:center;gap:10px}
+.module-theme-shortcode .shortcode-preview i{font-size:22px}
+.module-theme-shortcode .shortcode-preview span{font-family:monospace;word-break:break-all}
+.module-theme-shortcode .shortcode-preview small{margin-left:auto;color:#777;white-space:nowrap}

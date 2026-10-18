@@ -1,0 +1,20 @@
+.module-theme-news .section{padding-bottom:30px}
+.module-theme-news .md-news{display:flex;margin:-15px -15px 0;flex-wrap:wrap}
+.module-theme-news .md-news .cat-item{margin:15px;width:calc(33.33333% - 30px)}
+.module-theme-news .md-news .cat-item.style_1{width:calc(50% - 30px)}
+.module-theme-news .md-news .cat-title{display:flex;margin-bottom:8px;padding-bottom:8px;border-bottom:2px solid #333;font-weight:700;font-size:18px;justify-content:space-between;align-items:center}
+.module-theme-news .md-news .cat-title h3{margin:0;font-size:18px}
+.module-theme-news .md-news .cat-title .more{display:flex;align-items:center;font-weight:400;font-size:17px}
+.module-theme-news .md-news .cat-title .more span{font-size:12px;-webkit-font-smoothing:auto}
+.module-theme-news .md-news .cat-img{margin-top:-10px}
+.module-theme-news .md-news .cat-img img{display:block;width:100%;height:auto}
+.module-theme-news .news-list{margin-top:15px}
+.module-theme-news .news-list li{display:flex;margin-bottom:8px;padding-bottom:8px;border-bottom:1px dashed #ddd;justify-content:space-between;align-items:center}
+.module-theme-news .news-list li:last-child{margin-bottom:0;padding-bottom:0;border-bottom:none}
+.module-theme-news .news-list.no-time li a{width:100%}
+.module-theme-news .news-list li a{position:relative;display:block;overflow:hidden;padding-left:15px;width:calc(100% - 100px);text-overflow:ellipsis;white-space:nowrap;line-height:34px}
+.module-theme-news .news-list li a:before{position:absolute;top:50%;left:0;margin-top:-3px;width:6px;height:6px;background-color:#ccc;content:''}
+.module-theme-news .news-list li a:hover:before{background-color:var(--main-color)}
+.module-theme-news .news-list li span{color:#666;font-size:13px}
+.module-theme-news .news-empty{width:100%;text-align:center}
+@media (max-width:767px){.module-theme-news .md-news{margin:0}.module-theme-news .md-news .cat-item,.module-theme-news .md-news .cat-item.style_1{margin:0 0 20px;padding-bottom:20px;width:100%;border-bottom:1px solid #ddd}.module-theme-news .md-news .cat-item:last-child{margin-bottom:0;padding-bottom:0;border:none}}

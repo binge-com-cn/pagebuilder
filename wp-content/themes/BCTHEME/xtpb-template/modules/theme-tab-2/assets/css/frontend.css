@@ -1,0 +1,23 @@
+.module-theme-tab-2 .module-tab-wrapper{display:flex;justify-content:space-between}
+.module-theme-tab-2 .module-tab-menu{width:24%}
+.module-theme-tab-2 .module-tab-menu ul{margin:0;padding:0;list-style:none}
+.module-theme-tab-2 .module-tab-menu li{display:block;margin:10px 0;border:1px solid #666;border-radius:39px;background:#fff;font-size:16px;line-height:50px}
+.module-theme-tab-2 .module-tab-menu li.selected{border-color:transparent;background:var(--main-color);color:#fff;font-weight:700}
+.module-theme-tab-2 .module-tab-menu button{padding:0 20px;width:100%;border:0;background:none;color:inherit;font:inherit;line-height:inherit;cursor:pointer}
+.module-theme-tab-2 .module-tab-box{margin:0;width:70%}
+.module-theme-tab-2 .tab-item{display:block}
+.module-theme-tab-2 .tab-item[hidden]{display:none}
+.module-theme-tab-2 .tab-text{padding:0;width:100%}
+.module-theme-tab-2 .tab-text h3{margin:0;color:#000;font-weight:700;font-size:30px;line-height:1.4}
+.module-theme-tab-2 .tab-text p{margin:16px 0;font-size:16px}
+.module-theme-tab-2 .tab-text ol,.module-theme-tab-2 .tab-text ul{display:flex;margin:0 -16px;padding-left:1rem;list-style:initial;flex-wrap:wrap}
+.module-theme-tab-2 .tab-text li{margin:8px 16px;width:calc(50% - 32px);color:#4c4c4c;font-size:16px}
+.module-theme-tab-2 .tab-text>:last-child{margin-bottom:0}
+.module-theme-tab-2 .tab-btn{margin-top:20px}
+.module-theme-tab-2 .see-more{position:relative;display:flex;box-sizing:border-box;padding:0 24px;width:fit-content;height:40px;border:1px solid #000;border-radius:var(--btn-radius);line-height:40px;transition:all .5s;align-items:center}
+.module-theme-tab-2 .see-more p{z-index:1;width:100%;color:#000;text-align:center}
+.module-theme-tab-2 .see-more-color{position:absolute;top:-1px;left:0;z-index:0;width:0;height:40px;border-radius:var(--btn-radius);background:var(--main-color);transition:all .5s}
+.module-theme-tab-2 .see-more:hover{border-color:var(--main-color);text-decoration:none}
+.module-theme-tab-2 .see-more:hover .see-more-color{width:100%}
+.module-theme-tab-2 .see-more:hover p{color:#fff}
+@media (max-width:767px){.module-theme-tab-2 .module-tab-wrapper{width:100%;flex-wrap:wrap}.module-theme-tab-2 .module-tab-menu{margin:0;padding:0;width:100%}.module-theme-tab-2 .module-tab-menu ul{white-space:nowrap;overflow:auto}.module-theme-tab-2 .module-tab-menu li{display:inline-block;margin:0 5px 10px;border:0;border-radius:var(--btn-radius);background:#e6e6e6;line-height:39px}.module-theme-tab-2 .module-tab-menu button{padding:0 30px}.module-theme-tab-2 .module-tab-box{margin-top:20px;width:100%}.module-theme-tab-2 .tab-text li{width:calc(100% - 32px)}.module-theme-tab-2 .tab-btn{margin-top:16px}}

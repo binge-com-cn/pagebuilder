@@ -1,0 +1,74 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* accordion */
+.xtpb-accordion-addon-content,
+.xtpb-accordion-items,
+.xtpb-accordion-item,
+.xtpb-panel-collapse,
+.xtpb-accordion-content,
+.xtpb-accordion-title{
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+}
+.xtpb-accordion-addon-content,
+.xtpb-accordion-items,
+.xtpb-accordion-item,
+.xtpb-panel-collapse,
+.xtpb-accordion-content {
+    width: 100%;
+}
+.xtpb-accordion-title{
+    position: relative;
+    width: 100%;
+    cursor: pointer;
+}
+.xtpb-accordion-title .xtpb-toggle-direction {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(0);
+    transform: translateY(-50%) rotate(0);
+    transition: transform .3s;
+}
+.xtpb-accordion-title .xtpb-toggle-direction.xtpb-toggle-right {
+    right: 15px;
+}
+.xtpb-accordion-title .xtpb-toggle-direction.xtpb-toggle-left {
+    left: 15px;
+}
+.xtpb-accordion-addon-content .xtpb-accordion-title.xtpb-toggle-left {
+    padding-left: 35px;
+}
+.xtpb-accordion-title-content,
+.xtpb-accordion-content {
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+.xtpb-accordion-content p {
+ overflow: hidden;
+ max-width: 100%;
+}
+.xtpb-accordion-item {
+    border: none;
+    border-top-width: 0;
+}
+
+.xtpb-accordion-title .xtpb-accordion-title-content+i {
+    margin-left: 8px;
+}
+.xtpb-accordion-title i+.xtpb-accordion-title-content {
+    margin-left: 8px;
+}
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-add-line,
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-add-circle-line,
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-add-box-line {
+    display: inline-block;
+    transform: rotate(45deg);
+}
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-arrow-right-circle-line,
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-arrow-right-s-line,
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-arrow-right-double-line,
+.xtpb-accordion-title.active .xtpb-toggle-direction .ri-arrow-right-s-fill {
+    display: inline-block;
+    transform: rotate(90deg);
+}

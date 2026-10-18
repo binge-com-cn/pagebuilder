@@ -1,0 +1,84 @@
+<svg width="30" height="30" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0759FF"/>
+      <stop offset="55%" stop-color="#0098F4"/>
+      <stop offset="100%" stop-color="#10C7DB"/>
+    </linearGradient>
+
+    <linearGradient id="inner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0878FF"/>
+      <stop offset="100%" stop-color="#16D6E5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景 -->
+  <rect
+    x="0"
+    y="0"
+    width="180"
+    height="180"
+    rx="42"
+    fill="url(#bg)"
+  />
+
+  <!-- 右上装饰 -->
+  <path
+    d="M113 40H148V71H136V55H113Z"
+    fill="#4AC9F4"
+    opacity="0.85"
+  />
+
+  <!-- 右下装饰 -->
+  <path
+    d="M114 116H136V105H148V141H114Z"
+    fill="#4AC9F4"
+    opacity="0.85"
+  />
+
+  <!-- 主体白色字标 -->
+  <path
+    fill="#FFFFFF"
+    d="
+      M36 40
+      H88
+      C110 40 124 50 124 67
+      C124 77 119 84 110 89
+      C121 93 128 102 128 113
+      C128 130 113 141 89 141
+      H36
+      V113
+      H52
+      V126
+      H88
+      C101 126 109 121 109 112
+      C109 103 101 98 88 98
+      H78
+      V84
+      H88
+      C100 84 106 79 106 70
+      C106 60 99 55 87 55
+      H52
+      V81
+      H36
+      Z
+    "
+  />
+
+  <!-- 中间蓝青色嵌入造型 -->
+  <path
+    fill="url(#inner)"
+    d="
+      M68 67
+      H94
+      C88 75 84 84 84 93
+      C84 102 88 110 94 116
+      H70
+      C64 108 61 99 61 91
+      C61 82 64 73 68 67
+      Z
+    "
+  />
+
+</svg>

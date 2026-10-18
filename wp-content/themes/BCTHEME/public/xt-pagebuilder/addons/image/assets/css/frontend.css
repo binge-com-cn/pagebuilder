@@ -1,0 +1,97 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* image addons */
+.xtpb-image-addon-content-wrap {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.xtpb-addon-image-caption {
+    margin: 0;
+    padding: 0;
+}
+.xtpb-image-addon-content{
+    position: relative;
+}
+.xtpb-image-addon-content.xtpb-imgblock {
+    display: block;
+}
+.xtpb-image-addon-content.xtpb-imginline {
+    display: inline;
+}
+.xtpb-image-addon-img {
+    transition: 400ms;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.xtpb-addon-image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 400ms;
+    background-color: rgba(119, 219, 31, .5);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+.xtpb-addon-image-overlay-icon{
+    color: #fff;
+    font-size: 24px;
+}
+/*.xtpb-addon-image-overlay-icon {
+    position: absolute;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 36px;
+    font-size: 28px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: 0 0;
+    top: 50%;
+    left: 50%;
+    margin-left: -18px;
+    margin-top: -18px;
+    background: rgba(0,0,0,.5);
+    border-radius: 40px;
+    -webkit-transition: background-color 400ms;
+    transition: background-color 400ms;
+    display: none;
+    box-shadow: none;
+    text-decoration: none;
+    outline-offset: 0;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+}*/
+/*.xtpb-image-addon-content:hover .xtpb-addon-image-overlay-icon {*/
+    /*display: block;*/
+    /*-webkit-animation: zoomIn .2s;*/
+    /*animation: zoomIn .2s;*/
+    /*padding: 0;*/
+    /*margin-left: -18px;*/
+    /*margin-top: -18px;*/
+    /*box-shadow: none;*/
+    /*text-decoration: none;*/
+    /*outline-offset: 0;*/
+    /*outline: 0;*/
+    /*color: #fff;*/
+/*}*/
+.xtpb-image-addon-content:hover .xtpb-addon-image-overlay {
+    opacity: 1;
+}
+.mfp-close-btn-in .mfp-content .mfp-close {
+    color: #fff;
+    background: none;
+}
+
+

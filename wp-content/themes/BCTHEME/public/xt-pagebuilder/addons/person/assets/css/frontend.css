@@ -1,0 +1,114 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* Person */
+.xtpb-person-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.xtpb-person-information .xtpb-person-designation,
+.xtpb-person-information .xtpb-person-email {
+    margin-top: 2px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.xtpb-person-addon-content .xtpb-person-introtext {
+    margin-top: 10px;
+}
+.xtpb-person-social {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 20px 0 0;
+}  
+.xtpb-person-social li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.xtpb-person-social-list {
+    display: inline-block;
+    text-align: center;
+}
+.xtpb-person-social li a {
+    text-decoration: none;
+    box-shadow: none;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    transition: 400ms;
+}
+.xtpb-person-social li a:hover,
+.xtpb-person-social li a:focus {
+    text-decoration: none;
+    box-shadow: none;
+    outline-offset: 0;
+    outline: 0;
+}
+.person-layout-one .xtpb-person-social li {
+    margin: 0 5px;
+}
+.xtpb-person-addon-img {
+    width: 100%;
+    height: auto;
+}
+.xtpb-person-social li a i {
+    text-align: center;
+}
+
+/* layout1 */
+.person-layout-one {
+    padding: 0 30px;
+    text-align: center;
+}
+.person-layout-one .xtpb-person-addon-img {
+    border-radius: 10px;
+}
+.xtpb-person-name {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+/* layout2 */
+.person-layout-two {
+    text-align: center;
+    color: #fff;
+}
+.person-layout-two .xtpb-person-social li a {
+    color: #fff;
+}
+.person-layout-two .xtpb-person-information-wrap {
+    padding: 25px;
+}
+.person-layout-two .xtpb-person-information .xtpb-person-name {
+    margin-bottom: 10px;
+}   
+
+
+
+
+/* layout 3 & 4 */
+.xtpb-person-media,
+.xtpb-person-media {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.xtpb-person-media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 25px 20px;
+}
+.person-layout-three .xtpb-person-addon-img,
+.person-layout-four .xtpb-person-addon-img {
+    width: 180px;
+}
+.person-layout-four .xtpb-person-addon-img {
+    border-radius: 100%;
+}
+
+

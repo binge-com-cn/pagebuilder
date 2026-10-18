@@ -1,0 +1,9 @@
+.module-theme-partners .md-partners ul{display:flex;margin:-10px;flex-wrap:wrap;justify-content:center}
+.module-theme-partners .md-partners ul li{overflow:hidden;margin:10px;height:auto;background-color:#fff}
+.module-theme-partners .md-partners ul li img{display:block;width:100%;height:auto;transition:transform .5s;object-fit:cover}
+.module-theme-partners .md-partners ul li:hover img{transform:scale(1.06)}
+.module-theme-partners .style_4 ul li{width:calc(25% - 20px)}
+.module-theme-partners .style_5 ul li{width:calc(20% - 20px)}
+.module-theme-partners .image-shadow ul li{box-shadow:0 0 16px rgba(2,31,75,.12)}
+.module-theme-partners .image-border ul li{border:1px solid #ddd}
+@media (max-width:767px){.module-theme-partners .md-partners ul{margin:-7px}.module-theme-partners .md-partners ul li{margin:7px;width:calc(50% - 14px)!important}}

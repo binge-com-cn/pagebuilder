@@ -1,0 +1,25 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* headline addons */
+.xtpb-addon-node {
+    position: relative;
+}
+.xtpb-headline-addon .xtpb-addon-title a {
+    text-decoration: none;
+    box-shadow: none;
+}
+.xtpb-headline-addon .xtpb-addon-title a:hover,
+.xtpb-headline-addon .xtpb-addon-title a:focus {
+    text-decoration: none;
+    box-shadow: none;  
+    outline: 0;
+    outline-offset: 0;
+}
+.xtpb-addon-title a {
+    transition: 400ms;
+}
+.xtpb-addon-title {
+    padding: 0;
+    margin: 0;
+    word-break: break-word;
+}

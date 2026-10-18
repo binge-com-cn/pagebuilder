@@ -1,0 +1,277 @@
+/**
+ * WordPress 客户端授权管理系统样式文件
+ */
+
+/* 授权状态小部件样式 */
+.license-status-widget {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 0;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.license-status-widget h4 {
+    margin: 0 0 10px 0;
+    color: #23282d;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.license-status-widget p {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+}
+
+.license-status-widget .button-small {
+    font-size: 11px;
+    height: auto;
+    line-height: 16px;
+    padding: 2px 8px;
+}
+
+/* 授权要求提示样式 */
+.license-required-notice {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    margin: 20px 0;
+    border-radius: 4px;
+    border-left: 4px solid #dc3545;
+}
+
+.license-required-notice h3 {
+    margin-top: 0;
+    color: #dc3545;
+    font-size: 18px;
+}
+
+.license-required-notice p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.license-required-notice .button-primary {
+    margin-top: 10px;
+}
+
+/* 更新提示样式 */
+.license-update-notice {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 3px;
+}
+
+.license-update-notice strong {
+    color: #856404;
+}
+
+.license-update-notice .button-small {
+    margin-top: 5px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .license-status-widget {
+        margin: 10px -10px;
+        border-radius: 0;
+    }
+    
+    .license-required-notice {
+        margin: 10px -10px;
+        border-radius: 0;
+        padding: 15px;
+    }
+    
+    .license-required-notice h3 {
+        font-size: 16px;
+    }
+}
+
+/* 管理员通知样式增强 */
+.notice.license-notice {
+    border-left-color: #dc3545;
+}
+
+.notice.license-notice p {
+    margin: 0.5em 0;
+}
+
+.notice.license-notice a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.notice.license-notice a:hover {
+    text-decoration: underline;
+}
+
+/* 授权状态指示器 */
+.license-indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.license-indicator.active {
+    background-color: #28a745;
+}
+
+.license-indicator.inactive {
+    background-color: #dc3545;
+}
+
+.license-indicator.checking {
+    background-color: #ffc107;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+/* 版本信息样式 */
+.license-version-info {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.license-version-info .current-version {
+    font-weight: 600;
+}
+
+.license-version-info .latest-version {
+    color: #007cba;
+}
+
+.license-version-info .update-available {
+    color: #856404;
+    font-weight: 600;
+}
+
+/* 加载状态 */
+.license-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.license-loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #007cba;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 工具提示 */
+.license-tooltip {
+    position: relative;
+    cursor: help;
+}
+
+.license-tooltip::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 1000;
+}
+
+.license-tooltip::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: #333;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.license-tooltip:hover::before,
+.license-tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* 紧凑模式 */
+.license-compact .license-status-widget {
+    padding: 10px;
+}
+
+.license-compact .license-status-widget h4 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.license-compact .license-status-widget p {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* 深色主题支持 */
+@media (prefers-color-scheme: dark) {
+    .license-status-widget {
+        background: #1e1e1e;
+        border-color: #444;
+        color: #e0e0e0;
+    }
+    
+    .license-required-notice {
+        background: #2d2d2d;
+        border-color: #444;
+        color: #e0e0e0;
+    }
+    
+    .license-required-notice h3 {
+        color: #ff6b6b;
+    }
+}
+
+/* 打印样式 */
+@media print {
+    .license-status-widget,
+    .license-required-notice {
+        border: 1px solid #000;
+        background: #fff !important;
+        color: #000 !important;
+        box-shadow: none;
+    }
+    
+    .license-status-widget .button,
+    .license-required-notice .button {
+        display: none;
+    }
+}

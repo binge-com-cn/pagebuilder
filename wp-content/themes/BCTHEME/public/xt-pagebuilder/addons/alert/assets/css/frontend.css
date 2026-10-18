@@ -1,0 +1,74 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* alert */
+.xtpb-alert-addon-content {
+    position: relative;
+    padding: 12px 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.xtpb-alert-addon-content .xtpb-close-alert {
+    float: right;
+    top: 10px;
+    position: absolute;
+    right: 15px;
+    border: none;
+    transition: 400ms;
+    cursor: pointer;
+    font-size: 20px;
+}
+.xtpb-alert-addon-content .xtpb-close-alert:hover {
+    color: rgb(189, 22, 22);
+}
+.xtpb-alert-title {
+    display: block;
+    font-weight: 700;
+}
+.xtpb-alert-desc {
+    display: block;
+}
+.xtpb-close-alert {
+    background: none;
+    padding: 0;
+    margin: 0;
+    text-shadow: none;
+    color: #000;
+}
+.xtpb-alert-primary {
+    background: rgba(48,113,255,.1);
+    color: #3071ff;
+}
+.xtpb-alert-success {
+    background: rgba(35,207,95,.1);
+    color: #23cf5f;
+}
+.xtpb-alert-info {
+    background: rgba(10,201,201,.1);
+    color: #0ac9c9;
+}
+.xtpb-alert-warning {
+    background: rgba(255,208,18,.1);
+    color: #f5a623;
+}
+.xtpb-alert-danger {
+    background: rgba(255,43,2,.1);
+    color: #ff2b02;
+}
+.xtpb-alert-light {
+    background: #f5f5f5;
+    color: #848e97;
+}
+.xtpb-alert-dark {
+    background: #333a41;
+    color: #fff;
+}
+.xtpb-close-alert:hover,
+.xtpb-close-alert:focus {
+    background: none;
+    color: #222;
+    box-shadow: none;
+    outline: 0;
+    outline-offset: 0;
+    text-decoration: none;
+    opacity: .75;
+}

@@ -1,0 +1,258 @@
+{
+  "menu": {
+    "eyebrow": "DOLCE, SALATO & QUALCOSA DI SPECIALE",
+    "title": "Selezione dal menu",
+    "intro": "Una selezione dei piatti e delle bevande più richiesti da Fluffy Brunch.",
+    "button": "Vedi il menu completo",
+    "url": {
+      "link": "https://fluffy-brunch.com/menu/",
+      "window": false,
+      "nofolow": false
+    },
+    "items": [
+      {
+        "category": "Fluffy Pancake",
+        "title": "Pancake 168 calorie",
+        "price": "€12.00",
+        "text": "Pancake, sciroppo d’acero BIO, zucchero a velo e frutta fresca.",
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/strawberry-pancake.jpg"
+        }
+      },
+      {
+        "category": "Fluffy Pancake",
+        "title": "Pancake Dubai Chocolate",
+        "price": "€18.50",
+        "text": "Crema al pistacchio, crema nocciola, kadayif e frutta fresca.",
+        "image": {
+          "url": ""
+        }
+      },
+      {
+        "category": "Fluffy Pancake",
+        "title": "Pancake Tiramisù",
+        "price": "€17.00",
+        "text": "Pancake, crema caffè, savoiardi, cacao e frutta fresca.",
+        "image": {
+          "url": ""
+        }
+      },
+      {
+        "category": "Toast & French Toast",
+        "title": "French Toast Dolce",
+        "price": "€15.50",
+        "text": "Burro di arachidi, banana caramellata, gelato, sesamo, salsa ai frutti rossi e zucchero a velo.",
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/toast-scramble.jpg"
+        }
+      },
+      {
+        "category": "Toast & French Toast",
+        "title": "Crispy Bacon",
+        "price": "€14.50",
+        "text": "Bacon, cheddar, uova strapazzate, cipolla sottaceto, pomodorini e salsa Fluffy.",
+        "image": {
+          "url": ""
+        }
+      },
+      {
+        "category": "Toast & French Toast",
+        "title": "Toast Salmon",
+        "price": "€14.50",
+        "text": "Salmone affumicato, crema avocado, uovo in camicia, Philadelphia e salsa mango.",
+        "image": {
+          "url": ""
+        }
+      },
+      {
+        "category": "Coffee & Drinks",
+        "title": "Caramel Macchiato",
+        "price": "€6.50",
+        "text": "Hot o cold, con panna.",
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/pink-latte.jpg"
+        }
+      },
+      {
+        "category": "Coffee & Drinks",
+        "title": "Matcha Latte",
+        "price": "€5.50",
+        "text": "Disponibile caldo o freddo.",
+        "image": {
+          "url": ""
+        }
+      },
+      {
+        "category": "Coffee & Drinks",
+        "title": "Pink Latte",
+        "price": "€6.60",
+        "text": "Hot o cold, dal colore iconico di Fluffy Brunch.",
+        "image": {
+          "url": ""
+        }
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "MOMENTI DA FLUFFY",
+    "title": "Galleria",
+    "intro": "Pancake, toast, coffee e piccoli dettagli che raccontano l’atmosfera di Fluffy Brunch.",
+    "button": "@fluffybrunchvenezia",
+    "url": {
+      "link": "https://www.instagram.com/fluffybrunchvenezia/",
+      "window": false,
+      "nofolow": false
+    },
+    "items": [
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/hero-pancake.jpg"
+        },
+        "title": "Fluffy pancake con sciroppo"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/strawberry-pancake.jpg"
+        },
+        "title": "Fluffy pancake con fragole"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/toast-bacon-egg.jpg"
+        },
+        "title": "Toast con uovo e bacon"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/avocado-toast.jpg"
+        },
+        "title": "Avocado toast firmato Fluffy"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/brunch-drinks.jpg"
+        },
+        "title": "Drink da condividere"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/toast-scramble.jpg"
+        },
+        "title": "French toast salato"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/coffee-banana.jpg"
+        },
+        "title": "Banana caffe"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/mojito.jpg"
+        },
+        "title": "Mojito della casa"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/pink-latte.jpg"
+        },
+        "title": "Pink latte"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/copper-drink.jpg"
+        },
+        "title": "Drink servito in mug di rame"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/latte.jpg"
+        },
+        "title": "Latte macchiato"
+      },
+      {
+        "image": {
+          "url": "http://pagebuilder/wp-content/uploads/fluffy-home/affogato.jpg"
+        },
+        "title": "Affogato"
+      }
+    ]
+  },
+  "philosophy": {
+    "eyebrow": "IL NOSTRO MODO DI FARE BRUNCH",
+    "title": "La nostra filosofia",
+    "intro": "Per noi il brunch è un momento da vivere con lentezza: ingredienti selezionati, sapori riconoscibili, qualche twist fusion e una presentazione che resti impressa.",
+    "image": {
+      "url": "http://pagebuilder/wp-content/uploads/fluffy-home/avocado-toast.jpg"
+    },
+    "quote": "Cucinare non significa solo leggere una ricetta: è una questione di sensibilità, di rispetto degli ingredienti e dei tempi di preparazione.",
+    "items": [
+      {
+        "title": "Sensibilità in cucina",
+        "text": "Ogni piatto nasce dal rispetto degli ingredienti e dei loro tempi di preparazione."
+      },
+      {
+        "title": "Fusion senza eccessi",
+        "text": "Classici del brunch riletti con richiami asiatici dolci e salati."
+      },
+      {
+        "title": "Ingredienti che si sentono",
+        "text": "Frutta fresca, creme, matcha, bacon, salmone e salse che raccontano il piatto."
+      },
+      {
+        "title": "Un posto in cui fermarsi",
+        "text": "Dalla colazione alla merenda, vogliamo offrire un momento leggero e conviviale."
+      }
+    ]
+  },
+  "press": {
+    "eyebrow": "STORIE, INCONTRI, PAROLE",
+    "title": "Dicono di noi",
+    "intro": "I nostri brunch hanno attirato l’attenzione dei principali media.",
+    "image": {
+      "url": "http://pagebuilder/wp-content/uploads/fluffy-home/media-report.jpg"
+    },
+    "caption": "Nuova Venezia · Reportage esclusivo · 2024",
+    "items": [
+      {
+        "value": "4.7/5",
+        "title": "Google Reviews",
+        "text": "Valutazione media"
+      },
+      {
+        "value": "1000+",
+        "title": "Clienti soddisfatti",
+        "text": "Recensioni positive"
+      },
+      {
+        "value": "TimeOut",
+        "title": "Miglior Brunch di Venezia",
+        "text": "TimeOut Venice · 2024 / 2025 / 2026"
+      }
+    ]
+  },
+  "visit": {
+    "eyebrow": "SAN POLO, VENEZIA",
+    "title": "Prenota il tuo tavolo da Fluffy Brunch",
+    "intro": "Fluffy pancake, brunch fusion e drink creativi nel cuore di Venezia.",
+    "image": {
+      "url": "http://pagebuilder/wp-content/uploads/fluffy-home/brunch-drinks.jpg"
+    },
+    "address": "Calle del Cappeller 1586, 30125 Venezia VE, Italia",
+    "hours": "Tutti i giorni 07:30 – 19:00",
+    "phone": "041 3194163",
+    "email": "fluffybrunch@icloud.com",
+    "button": "Prenota un tavolo",
+    "url": {
+      "link": "https://lyproject.luyimade.workers.dev/q.html?c=q_d5124384d6&go=r",
+      "window": false,
+      "nofolow": false
+    },
+    "map": {
+      "link": "https://www.google.com/maps/search/?api=1&query=Fluffy+Brunch+Calle+del+Cappeller+1586+Venezia",
+      "window": false,
+      "nofolow": false
+    },
+    "map_label": "Indicazioni stradali"
+  }
+}

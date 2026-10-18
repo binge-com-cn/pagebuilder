@@ -1,0 +1,32 @@
+.module-theme-service .service-list{width:100%}
+.module-theme-service .service-list ul{display:flex;margin:0 -6px;padding:0;list-style:none;flex-wrap:nowrap}
+.module-theme-service .service-list li{position:relative;overflow:hidden;margin:0 6px;height:540px;border-radius:var(--border-radius);background-position:center top;background-repeat:no-repeat;transition:width .4s ease}
+.module-theme-service .service-list li.has-link{cursor:pointer}
+.module-theme-service .service-list li:after{position:absolute;bottom:0;left:0;z-index:1;width:100%;height:50%;background:linear-gradient(to bottom,transparent,rgba(0,0,0,.5));content:""}
+.module-theme-service .service-item-url{position:absolute;inset:0;z-index:10;outline:0}
+.module-theme-service .service-list li.active{background-size:cover;box-shadow:0 0 24px rgba(0,0,0,.2)}
+.module-theme-service .service-item-head{position:absolute;bottom:40px;left:0;z-index:2;padding:0 24px;width:-webkit-fill-available;color:#fff;transition:all .6s ease}
+.module-theme-service .service-item-head h3{margin:0;font-weight:700;font-size:22px;line-height:1.4}
+.module-theme-service .service-item-head p{margin:14px 0 0;color:#fff;font-size:14px}
+.module-theme-service .service-item-info{position:absolute;bottom:22px;left:0;z-index:4;padding-top:3px;width:100%;color:#fff;opacity:0;transition:all .6s ease;transform:translateY(250px)}
+.module-theme-service .service-item-info h3{margin-bottom:14px;padding:0 24px;color:#fff;font-weight:700;font-size:28px}
+.module-theme-service .service-item-info_s{padding:0 24px 10px}
+.module-theme-service .service-item-info_s p{margin:0;font-size:16px;line-height:1.4}
+.module-theme-service .service-item-info_s span{display:inline-block;margin-top:14px;font-size:14px}
+.module-theme-service .service-list li.active .service-item-head{opacity:0;transform:translateY(230px)}
+.module-theme-service .service-list li.active .service-item-info{opacity:1;transition:all .6s ease .2s;transform:translateY(0)}
+.module-theme-service .list-item-1 li,.module-theme-service .list-item-1 li.active{width:100%}
+.module-theme-service .list-item-2 li{width:30%}.module-theme-service .list-item-2 li.active{width:70%}
+.module-theme-service .list-item-3 li{width:25%}.module-theme-service .list-item-3 li.active{width:50%}
+.module-theme-service .list-item-4 li{width:21%}.module-theme-service .list-item-4 li.active{width:37%}
+.module-theme-service .list-item-5 li{width:14.5%}.module-theme-service .list-item-5 li.active{width:34%}
+@media (max-width:1150px){.module-theme-service .service-list ul{margin:0;flex-wrap:wrap}.module-theme-service .service-list li,.module-theme-service .service-list li.active{margin:0 0 15px;width:100%;height:290px}.module-theme-service .service-list li:last-child{margin-bottom:0}.module-theme-service .service-list li.active .service-item-head{opacity:1;transform:none}.module-theme-service .service-list li.active .service-item-info{opacity:0;transition:none;transform:translateY(250px)}}
+.module-theme-service.service-editor-preview .service-list ul{margin:0 -6px;flex-wrap:nowrap}
+.module-theme-service.service-editor-preview .service-list li{margin:0 6px;height:420px}
+.module-theme-service.service-editor-preview .service-list li.active .service-item-head{opacity:0;transform:translateY(230px)}
+.module-theme-service.service-editor-preview .service-list li.active .service-item-info{opacity:1;transition:all .6s ease .2s;transform:translateY(0)}
+.module-theme-service.service-editor-preview .list-item-1 li,.module-theme-service.service-editor-preview .list-item-1 li.active{width:100%}
+.module-theme-service.service-editor-preview .list-item-2 li{width:30%}.module-theme-service.service-editor-preview .list-item-2 li.active{width:70%}
+.module-theme-service.service-editor-preview .list-item-3 li{width:25%}.module-theme-service.service-editor-preview .list-item-3 li.active{width:50%}
+.module-theme-service.service-editor-preview .list-item-4 li{width:21%}.module-theme-service.service-editor-preview .list-item-4 li.active{width:37%}
+.module-theme-service.service-editor-preview .list-item-5 li{width:14.5%}.module-theme-service.service-editor-preview .list-item-5 li.active{width:34%}

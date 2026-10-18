@@ -1,0 +1,43 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* Video */
+.xtpb-video-content {
+    position: relative;
+}
+.xtpb-video-content .xtpb-iframe-drag-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.xtpb-embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.xtpb-embed-responsive.xtpb-embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+.xtpb-embed-responsive .xtpb-embed-responsive-item, 
+.xtpb-embed-responsive embed, 
+.xtpb-embed-responsive iframe, 
+.xtpb-embed-responsive object {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+iframe, svg {
+    max-width: 100%;
+}
+
+
+
+

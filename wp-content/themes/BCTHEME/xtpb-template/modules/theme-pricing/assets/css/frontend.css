@@ -1,0 +1,23 @@
+.module-theme-pricing .pricing-module{display:flex;margin:-16px;flex-wrap:wrap;justify-content:center}
+.module-theme-pricing .pricing-wrapper{position:relative;margin:16px;padding:32px;border-radius:8px;background:#fff;box-shadow:0 0 30px rgba(12,49,113,.16);flex-grow:1}
+.module-theme-pricing .pricing-tag{position:absolute;top:0;right:0;margin:8px;padding:4px 8px;border-radius:4px;background:var(--nav_color_bg);color:#fff;font-weight:600;font-size:14px}
+.module-theme-pricing .pricing-title h3{margin:0;color:#0e0e0f;font-weight:700;font-size:24px}
+.module-theme-pricing .pricing-title p{margin:10px 0 0;color:#000;opacity:.7}
+.module-theme-pricing .pricing-price{margin-top:32px}
+.module-theme-pricing .pricing-price h5{margin:0;font-weight:700;font-size:40px}
+.module-theme-pricing .pricing-price h5 span,.module-theme-pricing .pricing-price>span{color:#000;font-size:14px;opacity:.7}
+.module-theme-pricing .pricing-btn{display:flex;margin-top:24px;text-align:center;flex-direction:column}
+.module-theme-pricing .pricing-btn a,.module-theme-pricing .pricing-btn .pricing-button{padding:14px 16px;border-radius:4px;background:#12715b;color:#fff;font-weight:600;font-size:16px}
+.module-theme-pricing .pricing-btn a:hover{text-decoration:underline}
+.module-theme-pricing .pricing-btn>span:not(.pricing-button){margin-top:8px;text-align:center}
+.module-theme-pricing .pricing-details{margin-top:32px}
+.module-theme-pricing .details-title span{font-weight:700;font-size:16px}
+.module-theme-pricing .details-item{margin-top:10px}
+.module-theme-pricing .details-item i{margin-right:4px;font-size:18px}
+.module-theme-pricing .details-item .ri-close-circle-fill{color:#c80000}
+.module-theme-pricing .details-item .ri-checkbox-circle-fill{color:#12715b}
+.module-theme-pricing .details-item span{font-size:15px}
+.module-theme-pricing .pricing-list-2 .pricing-wrapper{width:calc(50% - 32px)}
+.module-theme-pricing .pricing-list-3 .pricing-wrapper{width:calc(33.333333% - 32px)}
+.module-theme-pricing .pricing-list-4 .pricing-wrapper{width:calc(25% - 32px)}
+@media (max-width:767px){.module-theme-pricing .pricing-wrapper{width:100%!important}}

@@ -1,0 +1,150 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* pricing table */
+.xtpb-pricing-addon-content {
+    position: relative;
+    transition: 300ms;
+}
+.xtpb-pricing-wrapper {
+    padding: 20px 20px;
+    background: #f5f5f5;
+}
+.xtpb-pricing-title-wrap {
+    padding-top: 20px;
+}
+.xtpb-pricing-content {
+    padding: 15px 0 20px;
+}
+.xtpb-pricing-wrapper .xtpb-pricing-title {
+    padding: 0;
+    margin: 0;
+}
+.xtpb-pricing-content .xtpb-title-period {
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 15px;
+    display: inline-block;
+    color: #000;
+}
+.xtpb-pricing-feature {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 20px;
+    color: #000;
+}
+.xtpb-title-aditional-info {
+    display: block;
+    color: #9a9a9a;
+    margin: 20px 30px 0;
+}
+.xtpb-title-sales-wrapper .xtpb-title-sales {
+    text-decoration: line-through;   
+    font-size: 24px;
+    color: #858585;
+}
+.xtpb-pricing-addon-content .xtpb-title-sales-wrapper .xtpb-title-currency {
+    color: #858585;
+}
+.xtpb-title-currency {
+    font-size: 18px;
+}
+.xtpb-pricing-list i {
+    margin-right: 10px;
+}
+.xtpb-pricing-feature .xtpb-pricing-list {
+    border-bottom: 1px solid rgba(229, 229, 229, 0.6);;
+    display: block;
+    padding: 6px 12px;
+}
+.xtpb-pricing-feature .xtpb-pricing-list:last-child {
+    border-bottom: none;
+}
+
+/* layout one /two */
+.pricing-layout-one{
+    padding: 0 0 50px;
+    background: #fff;
+    border-radius: 4px;
+}
+.pricing-layout-one .xtpb-pricing-title-wrap {
+    padding: 25px 30px;
+}
+.pricing-layout-one .xtpb-pricing-title,
+.pricing-layout-two .xtpb-pricing-title{
+    color: #fff;
+    margin: 0 0 4px;
+}
+.pricing-layout-one .xtpb-pricing-subtitle,
+.pricing-layout-two .xtpb-pricing-subtitle {
+    color: #fff;
+    margin: 0;
+}
+.pricing-layout-two .xtpb-title-period,
+.pricing-layout-two .xtpb-pricing-text,
+.pricing-layout-two .xtpb-title-currency {
+    color: #fff;
+}
+
+.pricing-layout-one .xtpb-title-period,
+.pricing-layout-two .xtpb-title-period {
+    font-size: 20px;
+    font-weight: 400;
+}
+.pricing-layout-one .xtpb-pricing-content{
+    margin-top: 35px;
+}
+.pricing-layout-one .xtpb-pricing-feature {
+    padding: 0 30px 0;
+}
+.xtpb-pricing-fraction {
+    color: #444;
+    font-size: 20px;
+}
+
+/* two */
+.xtpb-pricing-table-icon {
+    margin: 0px 0 0;
+    padding: 20px;
+}
+.xtpb-pricing-table-icon i {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    line-height: 70px;
+    border-radius: 100%;
+    font-size: 24px;
+    color: #000; 
+    text-align: center;
+}
+.xtpb-pricing-text-wrapper .xtpb-pricing-text {
+    display: inline-block;
+}
+.xtpb-pricing-text {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+/* layout three */
+.xtpb-btn-pricing {
+    margin-top: 20px;
+    padding: 8px 30px;
+    transition: 400ms;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.xtpb-pricing-list {
+    margin: 0;
+}
+.xtpb-btnblock {
+    display: block;
+}
+.xtpb-btninlineblock {
+    display: inline-block;
+}
+.xtpb-btninline {
+    display: inline;
+}
+
+

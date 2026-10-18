@@ -1,0 +1,14 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* text block */
+.xtpb-text-block-drop:first-letter {
+    display: block;
+    float: left;
+    font-size: 50px;
+    line-height: 40px;
+    padding: 4px 8px 0 0;
+}
+.xtpb-text-block {
+    display: inline-block;
+}
+

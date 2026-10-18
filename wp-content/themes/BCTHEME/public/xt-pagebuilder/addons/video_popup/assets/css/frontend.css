@@ -1,0 +1,77 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* video popup */
+.xtpb-video-popup-icon {
+    display: inline-block;
+    text-align: center;
+    transition: 400ms;
+}
+.xtpb-video-popup-icon i {
+    transition: 400ms;
+    margin-left: 4px;
+}
+.xtpb-video-popup-wrap {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.xtpb-video-popup-wrap.mdvideo_left {
+    -webkit-box-pack: start!important;
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important;
+}
+.xtpb-video-popup-wrap.mdvideo_center {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.xtpb-video-popup-wrap.mdvideo_right {
+    -webkit-box-pack: end!important;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+}
+
+@media (max-width: 991px){
+    .xtpb-video-popup-wrap.smvideo_left {
+        -webkit-box-pack: start!important;
+        -ms-flex-pack: start!important;
+        justify-content: flex-start!important;
+    }
+    .xtpb-video-popup-wrap.smvideo_center {
+        -webkit-box-pack: center!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .xtpb-video-popup-wrap.smvideo_right {
+        -webkit-box-pack: end!important;
+        -ms-flex-pack: end!important;
+        justify-content: flex-end!important;
+    }
+}
+
+@media (max-width: 767px){
+    .xtpb-video-popup-wrap.xsvideo_left {
+        -webkit-box-pack: start!important;
+        -ms-flex-pack: start!important;
+        justify-content: flex-start!important;
+    }
+    .xtpb-video-popup-wrap.xsvideo_center {
+        -webkit-box-pack: center!important;
+        -ms-flex-pack: center!important;
+        justify-content: center!important;
+    }
+    .xtpb-video-popup-wrap.xsvideo_right {
+        -webkit-box-pack: end!important;
+        -ms-flex-pack: end!important;
+        justify-content: flex-end!important;
+    }
+}
+
+
+.xtpb-video-popup-content {
+    margin: 0 15px;
+}
+

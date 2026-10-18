@@ -1,0 +1,26 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* block number */
+.xtpb-blocknumber-media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.xtpb-blocknumber-number {
+    margin-right: 1rem!important;
+}
+.xtpb-blocknumber-body {
+    -ms-flex: 1;
+    flex: 1;
+}
+.xtpb-blocknumber-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.xtpb-blocknumber-number span {
+    display: inline-block;
+    text-align: center;
+}
+
+

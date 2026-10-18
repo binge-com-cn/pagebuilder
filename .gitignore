@@ -1,0 +1,30 @@
+# Machine-specific credentials
+/wp-config.php
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# WordPress runtime content and backups
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/upgrade-temp-backup/
+/wp-content/ai1wm-backups/
+/wp-content/updraft/
+/wp-content/backups/
+*.sql
+*.sql.gz
+*.wpress
+*.log
+
+# Local tooling and generated dependencies
+/.work-fluffy/
+/.codex/
+/.agents/
+node_modules/
+.DS_Store
+Thumbs.db
+# Downloaded plugin installation archives
+/wp-content/plugins/*.zip

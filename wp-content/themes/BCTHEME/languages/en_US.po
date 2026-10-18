@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modular\n"
+"POT-Creation-Date: 2024-11-10 23:35+0800\n"
+"PO-Revision-Date: 2024-11-10 23:35+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: 404.php:135
+msgid "页面不存在，或已被删除！"
+msgstr "Oops, Page not found or deleted!"
+
+#: 404.php:138
+msgid "返回首页"
+msgstr "Back to home"
+
+#: extends/remove-comment/remove-comment.php:44
+msgid "评论功能已被禁用。"
+msgstr ""
+
+#: extends/wpjam-comment/includes/class-comment.php:133
+msgid "Could not update comment status."
+msgstr ""
+
+#: extends/wpjam-comment/includes/class-comment.php:976
+msgid "You are posting comments too quickly. Slow down."
+msgstr ""
+
+#: extends/wpjam-comment/public/comment-features.php:238
+msgid "All"
+msgstr ""
+
+#: extends/wpjam-form/public/form-post_type.php:239
+msgid "Submit"
+msgstr ""
+
+#: footer.php:50 public/widget.php:564 template/archive-search.php:21
+#: template/module-page/theme-breadcrumb.php:21
+#: template/module-page/theme-search.php:30
+msgid "输入关键词进行搜索..."
+msgstr "Enter keywords to search…"
+
+#: public/hooks.php:22 public/utils.php:105 public/utils.php:114
+#: public/utils.php:120
+msgid "下载"
+msgstr "Downloads"
+
+#: public/post-filter.php:236 public/utils.php:174
+msgid "上一页"
+msgstr "Previous Page"
+
+#: public/post-filter.php:250 public/utils.php:183
+msgid "下一页"
+msgstr "Next Page"
+
+#: public/post-filter.php:253 public/utils.php:185
+#, php-format
+msgid "共 %d 页"
+msgstr "Total Pages: %d"
+
+#: public/post-filter.php:258
+msgid "抱歉，没有找到符合条件的文章。"
+msgstr "Sorry, no matching posts were found."
+
+#: public/post-filter.php:269
+#, php-format
+msgid "查询结果：共找到 %s 条数据"
+msgstr "Search results: Found %s items."
+
+# 面包屑导航
+#: public/utils.php:89
+msgid "当前位置："
+msgstr " "
+
+#: public/utils.php:90
+msgid "首页"
+msgstr "Home"
+
+#: public/utils.php:102 public/utils.php:111 public/utils.php:117
+msgid "常见问题"
+msgstr "FAQ"
+
+#: public/utils.php:108 public/utils.php:123
+msgid "团队"
+msgstr "Team"
+
+#: public/utils.php:126
+#, php-format
+msgid "【%s】的搜索结果"
+msgstr "Search for: %s"
+
+#: public/utils.php:176
+msgid "第一页"
+msgstr "First Page"
+
+#: public/utils.php:263
+msgid "微信"
+msgstr "WeChat"
+
+#: public/utils.php:264
+msgid "微信扫一扫"
+msgstr "Scan with WeChat"
+
+#: public/utils.php:266
+msgid "微博"
+msgstr "Weibo"
+
+#: public/utils.php:272
+msgid "复制成功"
+msgstr "Copied successfully"
+
+#: public/utils.php:278
+msgid "复制链接"
+msgstr "Copy link"
+
+#: public/utils.php:282
+msgid "Facebook"
+msgstr ""
+
+#: public/utils.php:283
+msgid "X"
+msgstr ""
+
+#: public/utils.php:284
+msgid "Google+"
+msgstr ""
+
+#: public/utils.php:285
+msgid "Pinterest"
+msgstr ""
+
+#: public/utils.php:286
+msgid "LinkedIn"
+msgstr ""
+
+#: public/utils.php:287
+msgid "Reddit"
+msgstr ""
+
+#: public/utils.php:288
+msgid "Email"
+msgstr ""
+
+#: public/utils.php:289
+msgid "StumbleUpon"
+msgstr ""
+
+#: public/utils.php:290
+msgid "vKontakte"
+msgstr ""
+
+#: public/utils.php:291
+msgid "WhatsApp"
+msgstr ""
+
+#: public/utils.php:440
+#, php-format
+msgid ""
+"WPJAM BASIC 插件当前版本为 %s，最新版本为 %s。<br>Modular 主题当前版本为 "
+"%s，最新版本为 %s。"
+msgstr ""
+
+#: public/widget.php:563
+msgid "站内搜索"
+msgstr "Search"
+
+#: single-faq.php:42 template/single-default.php:48
+msgid "发布时间："
+msgstr "Date: "
+
+#: single-faq.php:46 template/single-default.php:56
+msgid "浏览量："
+msgstr "Views: "
+
+#: template/loop/list-six.php:40 template/module-page/theme-download.php:71
+#: template/module-page/theme-download.php:82
+msgid "点击下载"
+msgstr "Download"
+
+#: template/module-page/theme-case.php:69
+#: template/module-page/theme-news-2.php:86
+#: template/module-page/theme-news-3.php:155
+#: template/module-page/theme-news.php:80
+#: template/module-page/theme-product-tab.php:109
+#: template/module-page/theme-product-tab.php:180
+msgid "暂无相关内容"
+msgstr "Sorry, no content available"
+
+#: template/module-page/theme-case.php:87
+#: template/module-page/theme-news-2.php:89
+#: template/module-page/theme-news-3.php:160
+#: template/module-page/theme-news.php:42
+#: template/module-page/theme-product-tab.php:116
+#: template/module-page/theme-product-tab.php:186
+#: template/module-page/theme-service.php:46
+#: template/module-page/theme-service.php:60
+msgid "查看更多"
+msgstr "View More"
+
+#: template/single-default.php:52
+msgid "分类："
+msgstr "Categories: "
+
+#: template/single-default.php:68 template/single-product.php:266
+msgid "摘要："
+msgstr "Excerpt:"
+
+#: template/single-default.php:80 template/single-product.php:278
+msgid "标签"
+msgstr "Tags"
+
+#: template/single-default.php:102
+msgid "上一篇："
+msgstr "Previous Post:"
+
+#: template/single-default.php:104 template/single-default.php:115
+msgid "查看详情"
+msgstr "View Details"
+
+#: template/single-default.php:113
+msgid "下一篇："
+msgstr "Next Post:"
+
+#: template/slide-bar.php:98
+msgid "返回顶部"
+msgstr "Go to top"
+
+#. Theme Name of the plugin/theme
+msgid "Modular"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.xintheme.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WPJAM Modular Themes"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XinTheme 新主题 + WordPress果酱"
+msgstr ""
+
+#, php-format
+#~ msgid "共有 %s 条筛选结果"
+#~ msgstr "There are %s filter results in total"
+
+#~ msgid "提交"
+#~ msgstr "SEND"
+
+#~ msgid "提交成功"
+#~ msgstr "Submission Successful"

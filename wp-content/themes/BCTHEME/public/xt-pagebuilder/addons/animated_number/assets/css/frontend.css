@@ -1,0 +1,23 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* animated number */
+.xtpb-counter-number {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+}
+/* animated number */
+.xtpb-counter-number,
+.xtpb-count-number-prefix,
+.xtpb-count-number-addition {
+    display: inline-block;
+}
+.xtpb-count-number-prefix,
+.xtpb-count-number-addition {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    position: relative;
+}
+
+

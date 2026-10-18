@@ -1,0 +1,181 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* testimonial carosuel */
+.xtpb-testimonial-name {
+    display: block;
+    font-size: 16px;
+    margin: 5px 0 0;
+    padding: 0;
+    line-height: 18px;
+}
+.xtpb-testimonial-designation {
+    font-size: 12px;
+    margin: 0;
+    color: #858585;
+}
+.xtpb-testimonial-introtext {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* layout 1 */
+.testimonial-layout-layoutone .xtpb-testimonial-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.testimonial-layout-layoutone .xtpb-testimonial-image {
+    margin-right: 15px;
+}
+.testimonial-layout-layoutone .xtpb-testimonial-information {
+    text-align: left;
+}
+.title_center .xtpb-testimonial-information {
+    -webkit-box-pack: center!important;
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+}
+.title_right .xtpb-testimonial-information {
+    -webkit-box-pack: end!important;
+    -ms-flex-pack: end!important;
+    justify-content: flex-end!important;
+}
+.title_left .xtpb-testimonial-information {
+    -webkit-box-pack: start!important;
+    -ms-flex-pack: start!important;
+    justify-content: flex-start!important;
+}
+
+/* layout 2 */
+.testimonial-layout-layouttwo .xtpb-testimonial-image {
+    display: inline-block;
+}
+
+/* layout 3 */
+.testimonial-layout-layoutthree .xtpb-testimonial-image {
+    display: inline-block;
+}
+.testimonial-layout-layouttwo,
+.testimonial-layout-layoutthree,
+.testimonial-layout-layoutfour{
+  text-align: center;
+}
+
+/* layout 4 */
+.testimonial-layout-layoutfour .xtpb-testimonial-image {
+    display: inline-block;
+}
+.testimonial-layout-layoutfour .xtpb-testimonial-quote {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.xtpb-testimonial-content-carousel .slick-slide {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.xtpb-testimonial-content-carousel .slick-list {
+    margin-right: 0;
+    margin-left: 0;
+} 
+
+/* navigation */
+.xtpb-testimonial-content-carousel {
+    position: relative; 
+}
+.xtpb-testimonial-content-carousel .xtpb-carousel-prev,
+.xtpb-testimonial-content-carousel .xtpb-carousel-next {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 400ms;
+    font-size: 18px;
+}
+.xtpb-testimonial-content-carousel .xtpb-carousel-prev {
+    right: 0;
+    left: auto;
+}
+.xtpb-testimonial-content-carousel .xtpb-carousel-next {
+    left: 0;
+    right: auto;
+}
+.xtpb-testimonial-content-carousel .xtpb-carousel-prev:hover,
+.xtpb-testimonial-content-carousel .xtpb-carousel-next:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+.xtpb-testimonial-content-carousel .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.xtpb-testimonial-content-carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.xtpb-testimonial-content-carousel .slick-dots li button {
+    background: #000;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    opacity: .3;
+    transition: 400ms;
+}
+.xtpb-testimonial-content-carousel .slick-dots li button:before {
+    display: none;
+}
+.xtpb-testimonial-content-carousel .slick-dots li.slick-active button,
+.xtpb-testimonial-content-carousel .slick-dots li button:hover {
+    opacity: 1;
+}
+.xtpb-testimonial-content-in {
+    margin: 5px;
+}
+.xtpb-testimonial-content-in:focus,
+.slick-slide:focus {
+    outline: -webkit-focus-ring-color auto 0;
+}
+
+/* nav */
+.xtpb-testimonial-content-carousel.nav_style2 .xtpb-carousel-next {
+    left: auto;
+    right: 35px;
+}
+.xtpb-testimonial-content-carousel.nav_style3 .xtpb-carousel-prev {
+    left: 35px;
+    right: auto;
+}
+.xtpb-testimonial-content-carousel.nav_style4 .xtpb-carousel-prev {
+    left: 50%;
+    right: auto;
+    margin-left: 2px;
+}
+.xtpb-testimonial-content-carousel.nav_style4 .xtpb-carousel-next {
+    right: 50%;
+    left: auto;
+    margin-right: 2px;
+}
+

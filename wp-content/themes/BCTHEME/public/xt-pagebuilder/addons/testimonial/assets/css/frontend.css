@@ -1,0 +1,80 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* testimonial */
+.xtpb-testimonial-name {
+    display: block;
+}
+.xtpb-testimonial-name {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.xtpb-testimonial-designation {
+    font-size: 12px;
+    margin: 0;
+    color: #858585;
+}
+.xtpb-testimonial-introtext {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* one */
+.xtpb-testimonial-addon-content {
+    transition: 400ms;
+}
+.testimonial-layout-one .xtpb-testimonial-information {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.testimonial-layout-one .xtpb-testimonial-image {
+    margin-right: 15px;
+}
+.testimonial-layout-one {
+    padding: 40px;
+    border-radius: 4px;
+    background: #f6f6f6;
+    border: 1px solid #e4e4e4;
+    text-align: left;
+}
+
+/* two */
+.testimonial-layout-two,
+.testimonial-layout-three,
+.testimonial-layout-four {
+    text-align: center;
+    padding: 0 20px;
+}
+.testimonial-layout-two .xtpb-testimonial-image,
+.testimonial-layout-three .xtpb-testimonial-image,
+.testimonial-layout-four .xtpb-testimonial-image {
+    margin-bottom: 20px;
+}
+.testimonial-layout-two .xtpb-testimonial-addon-img,
+.testimonial-layout-three .xtpb-testimonial-addon-img {
+    border-radius: 100%;
+}
+/* three */
+
+
+/* four */
+.testimonial-layout-four .xtpb-testimonial-quote {
+    font-size: 72px;
+    color: #ddd;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.testimonial-layout-four .xtpb-testimonial-introtext {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+

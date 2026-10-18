@@ -1,0 +1,29 @@
+.module-theme-about .md-about{display:flex;justify-content:space-between}
+.module-theme-about .md-about.style_2 .about-text{order:1}
+.module-theme-about .md-about.style_2 .about-img{order:2}
+.module-theme-about .md-about .about-img{position:relative;width:48%}
+.module-theme-about .md-about .about-img .play-view{position:absolute;top:calc(50% - 40px);right:0;left:0;text-align:center}
+.module-theme-about .md-about .about-img span.video-play-icon{display:inline-block;width:65px;height:65px;border-radius:50%;background:#282828bd;color:#fff;line-height:65px;transition:.3s ease-in-out;animation:ripple 1s linear infinite}
+.module-theme-about .md-about .about-img span.video-play-icon:hover{transform:scale(1.1)}
+.module-theme-about .md-about .about-img span.video-play-icon i{font-size:24px}
+.module-theme-about .md-about .about-text{width:48%}
+.module-theme-about .md-about .about-text h3{margin:0 0 20px;font-size:22px}
+.module-theme-about .md-about .about-text p{margin:0 0 20px;color:#000;text-align:justify;font-size:16px;line-height:1.6}
+.module-theme-about .md-about .about-text .btn{margin-top:30px}
+.module-theme-about .md-about .about-text .btn a{display:inline-block;margin-right:15px;padding:0 30px;border:2px solid var(--main-color);background-color:var(--main-color);color:#fff;line-height:38px;transition:all .3s}
+.module-theme-about .md-about .about-text .btn a:hover{background-color:#fff;color:#000}
+.module-theme-about .md-about .about-text .btn a:nth-child(2){border-color:#000;background-color:#000}
+.module-theme-about .md-about .about-text .btn a:nth-child(2):hover{background-color:#fff;color:#000}
+.module-theme-about .md-about .about-tel{display:inline-block;padding:4.5px 16px;border:1px solid var(--main-color);background:#fff;color:var(--main-color);vertical-align:bottom}
+.module-theme-about .md-about .about-tel .tel-title{vertical-align:4px;font-weight:700;font-size:16px}
+.module-theme-about .md-about .about-tel .tel-number{font-weight:700;font-size:30px;font-family:serif;line-height:30px}
+
+@media (max-width:767px){
+	.module-theme-about .md-about{flex-wrap:wrap}
+	.module-theme-about .md-about .about-img,.module-theme-about .md-about .about-text{width:100%}
+	.module-theme-about .md-about .about-img img{display:block}
+	.module-theme-about .md-about .about-text{margin-top:26px}
+	.module-theme-about .md-about .about-text .btn{display:flex;margin-top:20px;flex-wrap:wrap}
+	.module-theme-about .md-about .about-tel{width:100%;text-align:center;order:1}
+	.module-theme-about .md-about .about-text .btn a{margin-top:15px;margin-right:0;width:100%;text-align:center;font-size:18px;order:2}
+}

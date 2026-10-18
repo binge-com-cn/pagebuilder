@@ -1,0 +1,11 @@
+.xtpb-clearfix:after{
+    clear: both;
+    content: " ";
+    display: table;
+}
+.xtpb-clearfix:before{
+    content: " ";
+    display: table;
+    clear: both;
+}
+

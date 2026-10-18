@@ -1,0 +1,15 @@
+.module-theme-breadcrumb .breadcrumb-search{padding:15px 0;background:none}
+.module-theme-breadcrumb .breadcrumb-search .container{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+.module-theme-breadcrumb .breadcrumb{display:-webkit-box;overflow:hidden;max-width:60%;background:none;text-overflow:ellipsis;-webkit-box-orient:vertical;-webkit-line-clamp:1}
+.module-theme-breadcrumb .breadcrumb :last-child.ri-arrow-right-s-line{display:none}
+.module-theme-breadcrumb .search-form input{float:left;padding:6px 12px;width:210px;border:1px solid #eee;border-radius:0;font-size:14px}
+.module-theme-breadcrumb .search-form button{width:60px;height:34px;outline:0;border:0;background:var(--main-color);color:#fff;font-size:20px;cursor:pointer}
+@media (max-width:767px){
+	.module-theme-breadcrumb .breadcrumb-search{padding:8px 0;background-color:#f5f5f5}
+	.module-theme-breadcrumb .breadcrumb{max-width:100%;background:none}
+	.module-theme-breadcrumb .search-form{position:relative;float:none;display:inline-block;width:100%}
+	.module-theme-breadcrumb .breadcrumb+.search-form{margin-top:8px;padding-top:8px;border-top:1px solid #eee}
+	.module-theme-breadcrumb .search-form input{padding:0 12px;width:calc(100% - 60px);height:44px}
+	.module-theme-breadcrumb .search-form button{height:46px}
+	.single .module-theme-breadcrumb .search-form{display:none}
+}

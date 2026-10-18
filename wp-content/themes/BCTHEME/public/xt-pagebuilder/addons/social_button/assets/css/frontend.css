@@ -1,0 +1,103 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* social buttons */
+.xtpb-social-button {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.xtpb-social-button li {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.xtpb-social-button li a {
+    text-decoration: none;
+    box-shadow: none;
+    padding: 10px 20px;
+    background: #0faae4;
+    color: #fff;
+    transition: 400ms;
+    display: inline-block;
+    margin: 0;
+}
+.xtpb-social-button li a i {
+    margin-right: 5px;
+}
+.xtpb-social-standard li a {
+    padding: 7px 15px; 
+}
+.xtpb-social-large li a {
+    padding: 10px 20px; 
+}
+.xtpb-social-xlarge li a {
+    padding: 15px 30px; 
+}
+.xtpb-social-small li a {
+    padding: 5px 10px; 
+}
+.xtpb-social-xsmall li a {
+    padding: 3px 8px; 
+}
+
+
+.xtpb-social-button .xtpb-social-primary {
+    background: #22b8f0;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-primary:hover {
+    background: #0e9cd1;
+}
+.xtpb-social-button .xtpb-social-success {
+    background: #23cf5f;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-success:hover {
+    background: #1fae51;
+}
+.xtpb-social-button .xtpb-social-info {
+    background: #0ac9c9;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-info:hover {
+    background: #09aeae;
+}
+.xtpb-social-button .xtpb-social-warning {
+    background: #ffd012;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-warning:hover {
+    background: #e6bc15;
+}
+.xtpb-social-button .xtpb-social-danger {
+    background: #ff2b02;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-danger:hover {
+    background: #d72503;
+}
+.xtpb-social-button .xtpb-social-light {
+    background: #98a7b5;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-light:hover {
+    background: #7a8793;
+}
+.xtpb-social-button .xtpb-social-dark {
+    background: #23272b;
+    color: #fff;
+}
+.xtpb-social-button .xtpb-social-dark:hover {
+    background: #111416;
+}
+
+.xtpb-social-square li a {
+    border-radius: 0;
+} 
+.xtpb-social-round li a {
+    border-radius: 100px;
+}
+.xtpb-social-rounded li a{
+    border-radius: 4px;
+}
+

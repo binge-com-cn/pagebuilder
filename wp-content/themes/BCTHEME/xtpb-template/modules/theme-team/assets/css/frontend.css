@@ -1,0 +1,13 @@
+.module-theme-team .team-post-list{position:relative;display:flex;margin:-12px;flex-wrap:wrap;justify-content:center}
+.module-theme-team .team-post-list .item{position:relative;overflow:hidden;margin:12px;width:calc(25% - 24px);border-radius:8px;background:#fff;text-align:center}
+.module-theme-team .team-post-list .img{position:relative;overflow:hidden;border-radius:5px;transition:.7s cubic-bezier(.17,.67,0,1.01)}
+.module-theme-team .team-post-list .img img{display:block;margin:0;width:100%;border-radius:5px;transition:.7s cubic-bezier(.17,.67,0,1.01)}
+.module-theme-team .team-post-list .item:hover .img{transform:scale(.98)}
+.module-theme-team .team-post-list .team-preview-image{min-height:240px;background:#ddd}
+.module-theme-team .team-post-list .info{padding:16px}
+.module-theme-team .team-post-list .info h2{margin:0;color:#141414;font-weight:400;font-size:18px;line-height:1.4}
+.module-theme-team .team-post-list .info p{margin:5px 0 0;color:#707070;font-weight:400;font-size:14px;line-height:1.4}
+.module-theme-team .more-btn{margin-top:40px;text-align:center}
+.module-theme-team .more-btn a,.module-theme-team .more-btn span{display:inline-block;margin:0 auto;padding:12px 70px;border:1px solid #333;color:#000;font-weight:700;font-size:16px;transition:all .3s}
+.module-theme-team .more-btn a:hover{border-color:var(--main-color);background:var(--main-color);color:#fff}
+@media (max-width:767px){.module-theme-team .team-post-list{margin:-8px}.module-theme-team .team-post-list .item{margin:8px;width:calc(50% - 16px)}.module-theme-team .team-post-list .item:hover .img{transform:none}.module-theme-team .more-btn{margin-top:15px}}

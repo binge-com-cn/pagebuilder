@@ -1,0 +1,7 @@
+.module-theme-aptitude .aptitude-list{background:0 0}
+.module-theme-aptitude .aptitude-list ul{display:flex;padding-bottom:20px}
+.module-theme-aptitude .aptitude-list ul li{width:auto;text-align:center}
+.module-theme-aptitude .aptitude-list ul li img{width:100%;height:auto;-webkit-user-drag:none}
+.module-theme-aptitude .aptitude-list ul li p{margin:15px 0;font-size:15px}
+.module-theme-aptitude .aptitude-list .swiper-pagination{bottom:0}
+.module-theme-aptitude .aptitude-list .swiper-pagination .swiper-pagination-bullet-active{background:#000}

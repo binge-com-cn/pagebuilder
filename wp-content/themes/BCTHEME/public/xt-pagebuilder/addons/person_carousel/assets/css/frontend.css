@@ -1,0 +1,278 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* Person carosuel */
+
+.xtpb-person-name {
+    font-size: 18px;
+    font-weight: 700;
+}
+.xtpb-person-information .xtpb-person-designation,
+.xtpb-person-information .xtpb-person-email {
+    margin-top: 2px;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.xtpb-person-addon-content .xtpb-person-introtext {
+    margin-top: 10px;
+}
+.xtpb-person-social {
+    list-style: none;
+    display: block;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.xtpb-person-social li {
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+.xtpb-person-social-list {
+    display: inline-block;
+    text-align: center;
+}
+.xtpb-person-social li a {
+    text-decoration: none;
+    box-shadow: none;
+    display: block;
+    font-size: 14px;
+    line-height: 14px;
+    color: #999;
+    transition: 400ms;
+}
+.xtpb-person-social li a:hover,
+.xtpb-person-social li a:focus {
+    text-decoration: none;
+    box-shadow: none;
+    outline-offset: 0;
+    outline: 0;
+}
+.xtpb-person-social li a i {
+    text-align: center;
+}
+
+/* layout1 */
+.person-layout-layoutone {
+    padding: 0 50px;
+    text-align: center;
+}
+.person-layout-layoutone .xtpb-person-name {
+    margin-top: 20px;
+    font-size: 18px;
+}
+.person-layout-layoutone .xtpb-person-social li {
+    margin: 0 5px;
+}
+
+/* layout2 */
+.person-layout-layouttwo {
+    text-align: center;
+}
+.person-layout-layouttwo .xtpb-person-information .xtpb-person-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}   
+.person-layout-layouttwo .xtpb-person-designation {
+    font-size: 16px;
+}
+.person-layout-layouttwo .xtpb-person-social li a {
+    text-align: center;
+}
+
+/* layout 3 & 4 */
+.person-layout-layoutthree .xtpb-person-media,
+.person-layout-layoutfour .xtpb-person-media {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.person-layout-layoutthree .xtpb-person-media-body,
+.person-layout-layoutfour .xtpb-person-media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    padding: 0 25px 20px;
+}
+.person-layout-layoutthree .xtpb-person-addon-img,
+.person-layout-layoutfour .xtpb-person-addon-img {
+    width: 180px;
+}
+.person-layout-layoutfour .xtpb-person-addon-img {
+    border-radius: 100%;
+}
+
+
+.xtpb-person-content-carousel .slick-slide {
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.xtpb-person-content-carousel .slick-list {
+    margin-right: -5px;
+    margin-left: -5px;
+    padding: 0px;
+} 
+.person-layout-layoutone .xtpb-person-addon-img {
+    border-radius: 10px;
+}
+.xtpb-person-image {
+    line-height: 0;
+}
+
+/* person five */
+.xtpb-person-five-wrap {
+    position: relative;
+}
+
+.xtpb-person-five-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 400ms;
+    opacity: 0;
+}
+.xtpb-person-five-overlay:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: .8;
+    transition: 400ms;
+}
+
+.xtpb-person-five-wrap:hover .xtpb-person-five-overlay {
+    opacity: 1;
+}
+.xtpb-person-five-overlay .xtpb-person-social {
+    align-self: start;
+    margin-top:0;
+    -webkit-transform: translatey(-100px);
+    transform: translatey(-100px);
+    transition: 400ms;
+    position: relative;
+    z-index: 1;
+}
+.xtpb-person-five-wrap:hover .xtpb-person-five-overlay .xtpb-person-social {
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+}
+.xtpb-person-five-overlay .xtpb-person-information {
+    align-self: end;
+    -webkit-transform: translatey(100px);
+    transform: translatey(100px);
+    transition: 400ms;
+    position: relative;
+    z-index: 1;
+}
+.xtpb-person-five-wrap:hover .xtpb-person-information {
+    -webkit-transform: translatey(0);
+    transform: translatey(0);
+}
+.xtpb-person-five-overlay .xtpb-person-designation,
+.xtpb-person-five-overlay .xtpb-person-name,
+.xtpb-person-five-overlay .xtpb-person-introtext,
+.xtpb-person-five-overlay .xtpb-person-email,
+.xtpb-person-five-overlay .xtpb-person-social li a {
+    color: #fff;
+}
+
+/* navigation */
+.xtpb-person-content-carousel {
+    position: relative; 
+}
+.xtpb-person-content-carousel .xtpb-carousel-prev,
+.xtpb-person-content-carousel .xtpb-carousel-next {
+    position: absolute;
+    top: 50%;
+    width: 30px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.35);
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 400ms;
+}
+.xtpb-person-content-carousel .xtpb-carousel-prev {
+    right: 0;
+    left: auto;
+}
+.xtpb-person-content-carousel .xtpb-carousel-next {
+    left: 0;
+    right: auto;
+}
+.xtpb-person-content-carousel.nav_style2 .xtpb-carousel-next {
+    left: auto;
+    right: 35px;
+}
+.xtpb-person-content-carousel.nav_style3 .xtpb-carousel-prev {
+    left: 35px;
+    right: auto;
+}
+.xtpb-person-content-carousel.nav_style4 .xtpb-carousel-prev {
+    left: 50%;
+    right: auto;
+    margin-left: 2px;
+}
+.xtpb-person-content-carousel.nav_style4 .xtpb-carousel-next {
+    right: 50%;
+    left: auto;
+    margin-right: 2px;
+}
+.xtpb-person-content-carousel .xtpb-carousel-prev:hover,
+.xtpb-person-content-carousel .xtpb-carousel-next:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+.xtpb-person-content-carousel .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.xtpb-person-content-carousel .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 3px;
+    padding: 0;
+    cursor: pointer;
+}
+.xtpb-person-content-carousel .slick-dots li button {
+    background: #000;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    opacity: .3;
+    transition: 400ms;
+}
+.xtpb-person-content-carousel .slick-dots li button:before {
+    display: none;
+}
+.xtpb-person-content-carousel .slick-dots li.slick-active button,
+.xtpb-person-content-carousel .slick-dots li button:hover {
+    opacity: 1;
+}
+.xtpb-person-content-in {
+    margin: 5px;
+}

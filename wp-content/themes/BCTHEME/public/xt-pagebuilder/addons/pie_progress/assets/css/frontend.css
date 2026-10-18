@@ -1,0 +1,33 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* pie chart */
+.xtpb-pie-chart {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+}
+.xtpb-pie-chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.xtpb-pie-chart .xtpb-chart-percent {
+    font-size: 24px;
+}
+.xtpb-pie-chart .xtpb-chart-icon,
+.xtpb-pie-chart .xtpb-chart-title,
+.xtpb-pie-chart .xtpb-chart-percent {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+}
+.xtpb-pie-chart .xtpb-chart-icon span,
+.xtpb-pie-chart .xtpb-chart-title span,
+.xtpb-pie-chart .xtpb-chart-percent span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+

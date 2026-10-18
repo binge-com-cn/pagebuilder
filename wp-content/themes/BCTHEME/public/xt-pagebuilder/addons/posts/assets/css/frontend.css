@@ -1,0 +1,369 @@
+/* Auto-generated from assets/css/xtpb-addons.css. */
+
+/* post gird */
+.xtpb-addons-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: calc( -20px/2 );
+    margin-right: calc( -20px/2 );
+}
+.xtpb-addons-col > div {
+    padding-right: calc( 20px/2 );
+    padding-left: calc( 20px/2 );
+    padding-bottom: 30px;
+}
+.xtpb-post-grid-img {
+    position: relative;
+}
+.xtpb-post-grid-img img {
+    height: auto;
+}
+.xtpb-post-grid-img .xtpb-post-grid-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    pointer-events: none;
+}
+.xtpb-post-grid-overlay .xtpb-post-grid-overlay-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 25px 10px;
+    z-index: 3;
+    width: 100%;
+    pointer-events: none;
+    transition: bottom 0.3s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.xtpb-post-grid-overlay:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 65%;
+    transition: opacity 0.2s;
+    background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.xtpb-postmeta-sept {
+    display: inline-block;
+}
+.xtpb-post-grid-title a,
+.xtpb-post-grid-meta a,
+.xtpb-post-grid-btn,
+.xtpb-posts-addon-loadmore-btn,
+.xtpb-posts-paginate-link {
+    transition: 400ms;
+}
+.xtpb-posts-paginate-link-disable {
+    opacity: .5;
+    pointer-events: none;
+}
+.xtpb-posts-addon-loadmore-btn {
+    display: inline-block;
+}
+.xtpb-post-grid-btn {
+    display: inline-block;
+}
+.xtpb-post-grid-title {
+    font-size: 20px;
+    padding: 0;
+}
+.xtpb-post-grid-meta {
+    font-size: 12px;
+    pointer-events: auto;
+}
+.xtpb-addons-col-xs1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.xtpb-addons-col-xs2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.xtpb-addons-col-xs3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+}
+.xtpb-addons-col-xs4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.xtpb-addons-col-xs5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+.xtpb-addons-col-xs6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.66667%;
+    flex: 0 0 16.66667%;
+    max-width: 16.66667%;
+}
+.xtpb-addons-col-xs7 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 14.258714%;
+  flex: 0 0 14.258714%;
+  max-width: 14.258714%;
+}
+.xtpb-addons-col-xs8 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 12.5%;
+  flex: 0 0 12.5%;
+  max-width: 12.5%;
+}
+
+@media (min-width: 576px) {
+    .xtpb-addons-col-sm1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .xtpb-addons-col-sm2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .xtpb-addons-col-sm3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .xtpb-addons-col-sm4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .xtpb-addons-col-sm5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .xtpb-addons-col-sm6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .xtpb-addons-col-sm7 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 14.258714%;
+      flex: 0 0 14.258714%;
+      max-width: 14.258714%;
+    }
+    .xtpb-addons-col-sm8 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 12.5%;
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+}
+
+@media (min-width: 992px) {
+    .xtpb-addons-col-md1 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .xtpb-addons-col-md2 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .xtpb-addons-col-md3 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+    .xtpb-addons-col-md4 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .xtpb-addons-col-md5 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+    .xtpb-addons-col-md6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.66667%;
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+    }
+    .xtpb-addons-col-md7 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 14.258714%;
+      flex: 0 0 14.258714%;
+      max-width: 14.258714%;
+    }
+    .xtpb-addons-col-md8 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 12.5%;
+      flex: 0 0 12.5%;
+      max-width: 12.5%;
+    }
+}
+
+.xtpb-posts-addon-content {
+    position: relative;
+}
+
+.xtpb-posts-addon-pagination {
+    z-index: 4;
+}
+.xtpb-post-grid-spinner {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(255, 255, 255, 0.5);
+    transition: 500ms;
+    z-index: 3;
+  }
+.xtpb-post-grid-spin {
+    width: 50px;
+    height: 50px;
+    margin: 100px auto;
+    top: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: -60px;
+    margin-left: -30px;
+    z-index: 1;
+  }
+  
+  .xtpb-post-grid-spin > div {
+    width: 33%;
+    height: 33%;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .xtpb-post-grid-spin div:nth-child(1) {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+        background-color: #3666E4;
+    }
+  .xtpb-post-grid-spin div:nth-child(2){
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    background: #59d693;
+  }
+  .xtpb-post-grid-spin div:nth-child(3) {
+        -webkit-animation-delay: 0.4s;
+        animation-delay: 0.4s;
+        background: #1c9ef1;
+    }
+  .xtpb-post-grid-spin div:nth-child(4){
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+        background: #9AC7A0;
+    }
+  .xtpb-post-grid-spin div:nth-child(5) {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+        background: #3666E4;
+    }
+  .xtpb-post-grid-spin div:nth-child(6) {
+        -webkit-animation-delay: 0.3s;
+        animation-delay: 0.3s;
+        background: #59d693;
+    }
+  .xtpb-post-grid-spin div:nth-child(7) {
+        -webkit-animation-delay: 0s;
+        animation-delay: 0s;
+        background: #C4E7AF;
+    }
+  .xtpb-post-grid-spin div:nth-child(8){
+        -webkit-animation-delay: 0.1s;
+        animation-delay: 0.1s;
+        background: #9AC7A0;
+    }
+  .xtpb-post-grid-spin div:nth-child(9) {
+        -webkit-animation-delay: 0.2s;
+        animation-delay: 0.2s;
+        background: #3666E4;
+    }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
+
+.xtpb-posts-addon-pagination{
+    position: relative;
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    border-top-color: #333;
+    animation: spinner .6s linear infinite;
+}
+
+.xtpb-posts-paginate-link{
+    display: inline-block;
+}
+
